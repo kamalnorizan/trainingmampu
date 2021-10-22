@@ -13,8 +13,17 @@ for x in it:
 print('end "forloop"')
 
 # Menggunakan for next
+print('Start while loop')
 while True:
  try:
   print(next(it2))
  except StopIteration:
-  sys.exit()
+  #sys.exit()
+  break
+
+print('End while loop')
+
+
+
+
+
