@@ -4,4 +4,4 @@ def sum( arg1, arg2 ):
     return total
 
 # mytotal = sum(10,20)
-print("Outside the function : ", sum(10,20))
+# print("Outside the function : ", sum(10,20))
