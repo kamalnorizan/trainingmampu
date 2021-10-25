@@ -19,26 +19,26 @@ print(emp1.name)
 emp1.age = 35
 if(hasattr(emp1,'age')):
     print(emp1.age)
-emp1.age = 35
-try:
-    print(emp1.age)
-except :
-    print('Error: age not found')
-else:
-    print()
+# emp1.age = 35
+# try:
+#     print(emp1.age)
+# except :
+#     print('Error: age not found')
+# else:
+#     print()
 
-inputName = input(' Please enter the name that you want to change : ')
-emp1.name = inputName
-emp1.displayEmployee()
-emp1.displayCount()
+# inputName = input(' Please enter the name that you want to change : ')
+# emp1.name = inputName
+# emp1.displayEmployee()
+# emp1.displayCount()
 
-emp2 = Employee("Amir", 30000)
-del emp2.salary
-emp2.salary = 40000
-emp2.displayEmployee()
-emp2.displayCount()
+# emp2 = Employee("Amir", 30000)
+# del emp2.salary
+# emp2.salary = 40000
+# emp2.displayEmployee()
+# emp2.displayCount()
 
-print(emp1.__dict__)
-print(emp1.__doc__)
-print(emp1.__module__)
-print(emp1.__class__.__name__)
+# print(emp1.__dict__)
+# print(emp1.__doc__)
+# print(emp1.__module__)
+# print(emp1.__class__.__name__)
