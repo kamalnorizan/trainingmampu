@@ -13,5 +13,3 @@ except KeyboardInterrupt:
     print('Error: User Interrupted the process')
 else:
     print('File oppened')
-
-
