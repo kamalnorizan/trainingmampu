@@ -7,7 +7,7 @@ while repeat=='y':
     print('Phone number recorded')
     repeat = input('Do you want to enter another phone number? (y/n)')
 
-# position = fo.seek(0,0)
+position = fo.seek(0,0)
 line2 = fo.readlines()
 
 for line in line2:
