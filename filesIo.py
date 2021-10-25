@@ -10,7 +10,7 @@ line2 = fo.readlines()
 
 for line in line2:
     print(line)
-print('Ended')
+print('Ended For Loop')
 
 position = fo.seek(0,0)
 while True:
@@ -19,5 +19,5 @@ while True:
     if not next_line:
         break
     print(next_line)
-
+print('Ended While Loop')
 fo.close()
