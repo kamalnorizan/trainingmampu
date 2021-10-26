@@ -3,7 +3,7 @@
   {
    "cell_type": "code",
    "execution_count": 14,
-   "id": "ccd34300",
+   "id": "e8320e95",
    "metadata": {
     "scrolled": true
    },
@@ -29,16 +29,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
-   "id": "b057168d",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
    "execution_count": 18,
-   "id": "10cbd345",
+   "id": "3ddcf313",
    "metadata": {},
    "outputs": [
     {
@@ -61,8 +53,32 @@
   },
   {
    "cell_type": "code",
+   "execution_count": 19,
+   "id": "3563c33f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "    Name  Age PhoneNumber\n",
+      "0   Zain   20  0123456789\n",
+      "1   Amir   22  0123555885\n",
+      "2  Farah   20  0123666885\n"
+     ]
+    }
+   ],
+   "source": [
+    "import pandas as pd\n",
+    "data = {'Name': ['Zain', 'Amir', 'Farah'], 'Age': [20,22,20], 'PhoneNumber': ['0123456789','0123555885','0123666885']}\n",
+    "df = pd.DataFrame(data)\n",
+    "print(df)"
+   ]
+  },
+  {
+   "cell_type": "code",
    "execution_count": null,
-   "id": "c18f0a8b",
+   "id": "4e95a44b",
    "metadata": {},
    "outputs": [],
    "source": []
