@@ -1,0 +1,43 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[ ]:
+
+
+
+
+
+# In[25]:
+
+
+import pandas as pd
+
+df = pd.read_csv('D:\pythonTutorial\data.csv', sep='\t')
+print(df)
+print(df.loc[:,['ID','Year_Birth','Income']])
+print(df.iloc[10])
+
+
+# In[15]:
+
+
+print(df.iloc[:,[0]])
+
+
+# In[28]:
+
+
+print(df.iloc[:, :6])
+
+
+# In[29]:
+
+
+print(df.loc[:10,['ID','Year_Birth','Income']])
+
+
+# In[ ]:
+
+
+
+
